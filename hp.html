@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hospital</title>
+  <link rel="stylesheet" href="hp.css">
+</head>
+<body>
+  <div class></div>
+  <main id="app">    
+    <aside id="sidebar">
+      <div class="brand">
+        <span class="brand-icon">HP</span>
+        <h2>병원 예약시스템</h2>
+      </div>
+      <ul id="menu">
+        <li class="menu-item">
+          <!-- button -->
+          <button class="menu-button">
+            <iconify-icon class="menu-icon" icon="majesticons:chevron-down-line"></iconify-icon>
+            진료예약
+          </button>
+          <!-- sub menu -->
+          <ul class="menu-sub">
+            <li class="menu-sub-item">
+              <a href="#">검색</a>
+            </li>
+            <li class="menu-sub-item">
+              <a href="#">예약날짜</a>
+            </li>
+            <li class="menu-sub-item">
+              <a href="#">병원종류</a>
+            </li>
+            <li class="menu-sub-item">
+              <a href="#">예약자 현황</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <button class="menu-button">
+            <iconify-icon class="menu-icon" icon="majesticons:chevron-down-line"></iconify-icon>
+            나의 관리
+          </button>
+          <ul class="menu-sub">
+            <li class="menu-sub-item">
+              <a href="#">처방전</a>
+            </li>
+            <li class="menu-sub-item">
+              <a href="#">건강검진</a>
+            </li>
+            <li class="menu-sub-item">
+              <a href="#">BMI측정</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <button class="menu-button">
+            <iconify-icon class="menu-icon" icon="majesticons:chevron-down-line"></iconify-icon>
+            검색
+          </button>
+          <ul class="menu-sub">
+            <li class="menu-sub-item">
+              <a href="#">가까운 병원</a>
+            </li>
+            <li class="menu-sub-item">
+              <a href="#">인기병원</a>
+            </li>
+            <li class="menu-sub-item">
+              <a href="#">내가 가본 병원</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <button class="menu-button">
+            <iconify-icon class="menu-icon" icon="majesticons:chevron-down-line"></iconify-icon>
+            FAQ
+          </button>
+          <ul class="menu-sub">
+            <li class="menu-sub-item">
+              <a href="#">병원 정보</a>
+            </li>
+            <li class="menu-sub-item">
+              <a href="#">건의사항</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <button class="menu-toggle">
+        <iconify-icon icon="ph:list-fill"></iconify-icon>
+      </button>
+    </aside>
+    <div class="dim-layer"></div>
+  </main>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script src="hp.js"></script>
+</body>
+</html>
